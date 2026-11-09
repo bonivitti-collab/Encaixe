@@ -23,3 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Segredos locais (nunca commitar)
+.claude/settings.local.json
+.env
+.env.*
+!.env.example
+.gemini/
